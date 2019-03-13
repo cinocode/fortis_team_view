@@ -1,7 +1,10 @@
-<mvc:View controllerName="fortis_team_view.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="fortis_team_view.controller.View1">
 	<App id="idAppControl">
 		<pages>
 			<Page title="FORT!S Team Übersicht">
+			<content>
+			    <Button xmlns="sap.m" text="Button" id="button0" press="myAwesomeAlert"/>
+			</content>
 			</Page>
 		</pages>
 	</App>
