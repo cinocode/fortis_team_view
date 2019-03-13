@@ -3,7 +3,7 @@
 		<pages>
 			<Page title="FORT!S Team Übersicht">
 			<content>
-			    <Button xmlns="sap.m" text="Button" id="button0" press="myAwesomeAlert"/>
+			    <Button xmlns="sap.m" text="Hello Fortis" id="button0" press="button_clicked" activeIcon="sap-icon://accounting-document-verification" icon="sap-icon://accept"/>
 			</content>
 			</Page>
 		</pages>

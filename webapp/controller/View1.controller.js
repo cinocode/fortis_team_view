@@ -4,7 +4,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 		/**
 		 *@memberOf fortis_team_view.controller.View1
 		 */
-		myAwesomeAlert: function (oEvent) {
+		button_clicked: function (oEvent) {
 			alert("Hello Fortis!");
 		}
 	});
