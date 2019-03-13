@@ -1,9 +1,9 @@
-<mvc:View controllerName="fortis_team_view.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="fortis_team_view.controller.View1">
 	<App id="idAppControl">
 		<pages>
-			<Page title="FORT!S Team Übersicht">
+			<Page title="FORT!SRULZ Team Übersicht">
 			<content>
-			    <Button xmlns="sap.m" text="Button" id="button0"/>
+			    <Button xmlns="sap.m" text="Hello Fortis" id="button0" press="button_clicked" activeIcon="sap-icon://accounting-document-verification" icon="sap-icon://accept"/>
 			</content>
 			</Page>
 		</pages>
