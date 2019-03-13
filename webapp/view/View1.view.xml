@@ -2,6 +2,9 @@
 	<App id="idAppControl">
 		<pages>
 			<Page title="FORT!S Team Übersicht">
+			<content>
+			    <Button xmlns="sap.m" text="Button" id="button0"/>
+			</content>
 			</Page>
 		</pages>
 	</App>
